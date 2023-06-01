@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  color: #e3ab44;
+}
+.container {
+  background-color: #0f0e30;
+  width: 1200px;
+  height: 800px;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+
+.title {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-size: xxx-large;
+  color: aqua;
+}
+.items {
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
+.status {
+  padding: 10px;
+  font-weight: bold;
+  background-color: darkgoldenrod;
+  font-size: x-large;
+  border-radius: 25px;
+  color: #0f0e30;
+  text-align: center;
+}
+
+.status:hover {
+  background-color: lightgreen;
+  color: purple;
+}
+
+.add-btn {
+  font-weight: bold;
+  font-size: x-large;
+  padding: 10px 15px;
+  background-color: springgreen;
+  border-radius: 100%;
+}
+.add-btn:hover {
+  background-color: pink;
+  cursor: pointer;
+  transition: all 0.5;
+  scale: 1.09;
+  color: red;
+}
+.text-input {
+  padding: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 25px;
+}
+option {
+  background-color: darkgray;
+}
+option:checked {
+  color: red;
+}
+
+.todo button {
+  width: 35px;
+  height: 50px;
+  position: relative;
+  left: 190px;
+  top: -50px;
+  border: none;
+}
+.icon {
+  position: relative;
+  left: 8px;
+  top: 15px;
+}
+.todo-item {
+  width: 450px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+
+  margin: auto;
+  line-height: 3rem;
+  background-color: burlywood;
+  color: brown;
+  font-size: xx-large;
+}
+.todo {
+  height: 50px;
+  margin-top: 45px;
+}
+.complete-btn {
+  border-radius: 0px 20px 20px 0px;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.trash-btn {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: black;
+  opacity: 0.5;
+}
